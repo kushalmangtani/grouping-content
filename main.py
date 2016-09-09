@@ -67,6 +67,7 @@ def is_same(file1,file2):
 	else:
 		return False	
 
+# This method has Time Complexity : O(n^2)
 def groupFilesByContent(dirPath):
 	''' returns a Map<String,List<Path>>. the key is path and the value is a list of files that have the same content as key'''
 
