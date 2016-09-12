@@ -99,7 +99,7 @@ def groupFilesByContent(dirPath):
 				file_list[key] = temp_list
 
 		# file does not matches any key - create a entry in hashmap for it
-		file_list[file] = []
+		grouped_files[file] = []
 
 
 
